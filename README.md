@@ -99,6 +99,10 @@ Model is saved under trained_model.sav using pickle in order for deployment.
 # Streamlit App
 Model is deployed and performed prediction on a web app using Streamlit.
 
+<img width="431" alt="app_1" src="https://user-images.githubusercontent.com/103228610/168872832-88a50356-9fb5-4660-89e8-961bfe2a4f28.png"> <br />
+<img width="472" alt="app_2" src="https://user-images.githubusercontent.com/103228610/168872853-704202e1-7c18-4098-973e-f793ccd28694.png"> <br/>
+
+
 # Credits
 Thanks to rashikrahmanpritom for the data
 https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
