@@ -4,7 +4,7 @@ This project analyze a dataset consists of patient's records that are vulnerable
 # Description
 "According to World Health Organisation (WHO), every year around 17.9 million deaths are due to cardiovascular diseases (CVDs) predisposing CVD becoming the leading cause of death globally.CVDs are a group of disorders of the heart and blood vessels, if left untreated it may cause heart attack. Heart attack occurs due to the presence of obstruction of blood flow into the heart. The presence of blockage may be due to the accumulation of fat, cholesterol, and other substances. Despite treatment has improved over the years and most CVD’s pathophysiology have been elucidated, heart attack can still be fatal." <br />
 
-As many scientists and researcher working on the prevention, as a data analyst we can do a little help too. 
+As many scientists and researcher working on the prevention, as a data analyst we can do a little help too.  <br />
 
 This project basically gives you a prediction on dataset by developing a reliable model using a machine learning approach. <br />
 In this case, Logistic Regression is used in this project. <br />
@@ -12,7 +12,7 @@ In this case, Logistic Regression is used in this project. <br />
 To fine tune on our data, initial steps called Exploratory Data Analysis has been conducted. <br />
 This also, by understanding the insights of our data such by looking at <br />
 **type of our data:** <br />
-**df.info()**
+**df.info()** <br />
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 303 entries, 0 to 302
 Data columns (total 14 columns):
@@ -34,8 +34,8 @@ Data columns (total 14 columns):
  13  output    303 non-null    int64  
 dtypes: float64(1), int64(13)
 
-**Checking our null values**
-There is no null values contain in the dataset
+**Checking our null values** <br />
+There is no null values contain in the dataset <br />
 Out[57]: 
 age         0
 sex         0
@@ -60,12 +60,12 @@ In this case, we only have one. <br />
  age  sex  cp  trtbps  chol  fbs  ...  exng  oldpeak  slp  caa  thall  output<br />
 164   38    1   2     138   175    0  ...     0      0.0    2    4      2       1
 
-**Action taken: to drop this duplicate values.
+**Action taken: to drop this duplicate values. <br />
 **
 Our data set shows 164 persons with heart disease and 138 without heart disease. <br />
 
 1 165
-0 138
+0 138 <br />
 
 This shows our dataset is balance. <br />
 
@@ -76,7 +76,7 @@ target variable. <br />
 ![image](https://user-images.githubusercontent.com/103228610/168871223-6e071492-8422-4121-9ed3-b1461c80ab7f.png)
 
 
-# How to use it 
+# How to use it  
 Clone repo and run it. <br />
 heart_analysis.py is a script to train the data. <br />
 heart_deploy.py is a script for deployment. This file gives you prediction on one instance. <br />
@@ -87,7 +87,7 @@ Python 3.8 <br />
 Windows 10 or even latest version <br />
 Anaconda prompt in order to execute our tensorflow environment <br />
 
-# Results
+# Results 
 The accuracy score on training data is 84%  whereas accuracy score on training data is 79%. Therefore, this model is showing a good model as it has no overfitting or underfitting. <br />
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/103228610/168871883-039e0d0f-7d6b-4a0c-a62e-ca03d1be526d.png">
 
