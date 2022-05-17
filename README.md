@@ -7,7 +7,8 @@ This project analyze a dataset consists of patient's records that are vulnerable
 As many scientists and researcher working on the prevention, as a data analyst we can do a little help too.  <br />
 
 This project basically gives you a prediction on dataset by developing a reliable model using a machine learning approach. <br />
-In this case, Logistic Regression is used in this project. <br />
+Logistic Regression is used as machine learning algorithm to predict the categorical dataset. <br />
+So, we'll be looking at prediction of the output. In this case, logistic regression will be predicting the output of a categorical dependent variable. <br />
 
 To fine tune on our data, initial steps called Exploratory Data Analysis has been conducted. <br />
 This also, by understanding the insights of our data such by looking at <br />
