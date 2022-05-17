@@ -64,8 +64,7 @@ In this case, we only have one. <br />
 **
 Our data set shows 164 persons with heart disease and 138 without heart disease. <br />
 
-1 165
-0 138 <br />
+<img width="56" alt="image" src="https://user-images.githubusercontent.com/103228610/168873664-45d32a32-97cd-49c3-bb45-b7b0f4d1a89f.png"> <br />
 
 This shows our dataset is balance. <br />
 
