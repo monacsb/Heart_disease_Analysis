@@ -71,7 +71,7 @@ This shows our dataset is balance.
 
 The image below is observation on correlation using heatmap<br/>
 Found a lowest correlation with target variable are fbs and chol. Whereas, the rest variables showing significant correlation between <br/>
-target variable.
+target variable. <br />
 
 ![image](https://user-images.githubusercontent.com/103228610/168871223-6e071492-8422-4121-9ed3-b1461c80ab7f.png)
 
@@ -88,7 +88,7 @@ Windows 10 or even latest version
 Anaconda prompt in order to execute our tensorflow environment
 
 # Results
-The accuracy score on training data is 84%  whereas accuracy score on training data is 79%. Therefore, this model is showing a good model as it has no overfitting or underfitting.
+The accuracy score on training data is 84%  whereas accuracy score on training data is 79%. Therefore, this model is showing a good model as it has no overfitting or underfitting. <br />
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/103228610/168871883-039e0d0f-7d6b-4a0c-a62e-ca03d1be526d.png">
 
 
