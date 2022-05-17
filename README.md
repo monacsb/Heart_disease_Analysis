@@ -57,8 +57,7 @@ We can even check if our data consists of any duplicate values <br />
 Unfortunately, there is one duplicate data. <br />
 In order to have a quick glance on exact duplicate row, we can extract that specific row(s) <br />
 In this case, we only have one. <br />
- age  sex  cp  trtbps  chol  fbs  ...  exng  oldpeak  slp  caa  thall  output<br />
-164   38    1   2     138   175    0  ...     0      0.0    2    4      2       1
+ <img width="466" alt="image" src="https://user-images.githubusercontent.com/103228610/168873794-a04b7112-541a-4823-b46f-1a2e3e618c97.png"> <br/>
 
 **Action taken: to drop this duplicate values. <br />
 **
