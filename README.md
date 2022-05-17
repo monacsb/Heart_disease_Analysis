@@ -1,16 +1,16 @@
 # Heart_disease_Analysis
-This project analyze a dataset consists of patient's records that are vulnerable to heart attack and non-heart attack. 
+This project analyze a dataset consists of patient's records that are vulnerable to heart attack and non-heart attack. <br />
 
 # Description
-"According to World Health Organisation (WHO), every year around 17.9 million deaths are due to cardiovascular diseases (CVDs) predisposing CVD becoming the leading cause of death globally.CVDs are a group of disorders of the heart and blood vessels, if left untreated it may cause heart attack. Heart attack occurs due to the presence of obstruction of blood flow into the heart. The presence of blockage may be due to the accumulation of fat, cholesterol, and other substances. Despite treatment has improved over the years and most CVD’s pathophysiology have been elucidated, heart attack can still be fatal." 
+"According to World Health Organisation (WHO), every year around 17.9 million deaths are due to cardiovascular diseases (CVDs) predisposing CVD becoming the leading cause of death globally.CVDs are a group of disorders of the heart and blood vessels, if left untreated it may cause heart attack. Heart attack occurs due to the presence of obstruction of blood flow into the heart. The presence of blockage may be due to the accumulation of fat, cholesterol, and other substances. Despite treatment has improved over the years and most CVD’s pathophysiology have been elucidated, heart attack can still be fatal." <br />
 
 As many scientists and researcher working on the prevention, as a data analyst we can do a little help too. 
 
-This project basically gives you a prediction on dataset by developing a reliable model using a machine learning approach. 
-In this case, Logistic Regression is used in this project. 
+This project basically gives you a prediction on dataset by developing a reliable model using a machine learning approach. <br />
+In this case, Logistic Regression is used in this project. <br />
 
 To fine tune on our data, initial steps called Exploratory Data Analysis has been conducted. <br />
-This also, by understanding the insights of our data such by looking at 
+This also, by understanding the insights of our data such by looking at <br />
 **type of our data:** <br />
 **df.info()**
 <class 'pandas.core.frame.DataFrame'>
@@ -54,20 +54,20 @@ output      0
 dtype: int64
 
 We can even check if our data consists of any duplicate values <br />
-Unfortunately, there is one duplicate data. 
+Unfortunately, there is one duplicate data. <br />
 In order to have a quick glance on exact duplicate row, we can extract that specific row(s) <br />
 In this case, we only have one. <br />
- age  sex  cp  trtbps  chol  fbs  ...  exng  oldpeak  slp  caa  thall  output
+ age  sex  cp  trtbps  chol  fbs  ...  exng  oldpeak  slp  caa  thall  output<br />
 164   38    1   2     138   175    0  ...     0      0.0    2    4      2       1
 
 **Action taken: to drop this duplicate values.
 **
-Our data set shows 164 persons with heart disease and 138 without heart disease. 
+Our data set shows 164 persons with heart disease and 138 without heart disease. <br />
 
 1 165
 0 138
 
-This shows our dataset is balance. 
+This shows our dataset is balance. <br />
 
 The image below is observation on correlation using heatmap<br/>
 Found a lowest correlation with target variable are fbs and chol. Whereas, the rest variables showing significant correlation between <br/>
@@ -82,10 +82,10 @@ heart_analysis.py is a script to train the data. <br />
 heart_deploy.py is a script for deployment. This file gives you prediction on one instance. <br />
 
 # Requirement
-Spyder 
-Python 3.8
-Windows 10 or even latest version
-Anaconda prompt in order to execute our tensorflow environment
+Spyder <br />
+Python 3.8 <br />
+Windows 10 or even latest version <br />
+Anaconda prompt in order to execute our tensorflow environment <br />
 
 # Results
 The accuracy score on training data is 84%  whereas accuracy score on training data is 79%. Therefore, this model is showing a good model as it has no overfitting or underfitting. <br />
@@ -93,16 +93,16 @@ The accuracy score on training data is 84%  whereas accuracy score on training d
 
 
 # Model
-Logistic Regression 
-Model is saved under trained_model.sav using pickle in order for deployment. 
+Logistic Regression <br />
+Model is saved under trained_model.sav using pickle in order for deployment. <br />
 
 # Streamlit App
-Model is deployed and performed prediction on a web app using Streamlit.
+Model is deployed and performed prediction on a web app using Streamlit.<br />
 
 <img width="431" alt="app_1" src="https://user-images.githubusercontent.com/103228610/168872832-88a50356-9fb5-4660-89e8-961bfe2a4f28.png"> <br />
 <img width="472" alt="app_2" src="https://user-images.githubusercontent.com/103228610/168872853-704202e1-7c18-4098-973e-f793ccd28694.png"> <br/>
 
 
 # Credits
-Thanks to rashikrahmanpritom for the data
+Thanks to rashikrahmanpritom for the data<br />
 https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
