@@ -87,19 +87,28 @@ Windows 10 or even latest version <br />
 Anaconda prompt in order to execute our tensorflow environment <br />
 
 # Results 
-The accuracy score on training data is 84%  whereas accuracy score on training data is 79%. Therefore, this model is showing a good model as it has no overfitting or underfitting. <br />
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/103228610/168871883-039e0d0f-7d6b-4a0c-a62e-ca03d1be526d.png">
+I have used several model to train the data. The models will be dumped into a pipeline in order to extract the best model. Each time we train the model, it will gives us the best model. In this case, it gave me KNN Classifier with accuracy score of 80% <br/>
+<img width="433" alt="best_model" src="https://user-images.githubusercontent.com/103228610/171986414-f473b091-56f9-4d01-b6cf-09a09eb48da0.png"> <br/>
+
+Based on the best KNN model, I have generate the classification report to check on our f1-score <br/> 
+<img width="378" alt="report_generation_score" src="https://user-images.githubusercontent.com/103228610/171986470-ad875e48-36b2-48d7-b32e-b90481902b8d.png"> <br/>
 
 
 # Model
+KNeighbors Classifier <br />
+Decision Tree Classifier <br />
+Random Forest Classifier <br />
 Logistic Regression <br />
-Model is saved under trained_model.sav using pickle in order for deployment. <br />
+
+A list has been created to store all the model into the pipeline<br/>
+Each time best model will be dumped into trained_model.pkl for deployment. <br />
+
+# Deployment result
+heart_deploy.py shows a simple test process by calling the input data manually whether a person have a heart disease or not<br/>
+
 
 # Streamlit App
 Model is deployed and performed prediction on a web app using Streamlit.<br />
-
-<img width="431" alt="app_1" src="https://user-images.githubusercontent.com/103228610/168872832-88a50356-9fb5-4660-89e8-961bfe2a4f28.png"> <br />
-<img width="472" alt="app_2" src="https://user-images.githubusercontent.com/103228610/168872853-704202e1-7c18-4098-973e-f793ccd28694.png"> <br/>
 
 
 # Credits
